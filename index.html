@@ -28,3 +28,120 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Devna Hotel & Restaurant</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #004080;
+    }
+    .rooms-container {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+    .room-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 300px;
+      transition: transform 0.3s ease;
+    }
+    .room-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+    .room-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    .room-content {
+      padding: 20px;
+    }
+    .room-content h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #003366;
+    }
+    .room-content p {
+      margin: 0 0 12px 0;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+    .price {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #009900;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  देवना होटल & रेस्टोरेंट
+</header>
+
+<section id="rooms">
+  <h2>हमारे कमरे</h2>
+  <div class="rooms-container">
+
+    <div class="room-card">
+      <img src="images/room1.jpg" alt="सिंगल रूम" />
+      <div class="room-content">
+        <h3>सिंगल रूम</h3>
+        <p>आरामदायक और साफ सुथरा सिंगल रूम।</p>
+        <p class="price">₹1200 / रात</p>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <img src="images/room2.jpg" alt="डबल रूम" />
+      <div class="room-content">
+        <h3>डबल रूम</h3>
+        <p>विशाल डबल रूम जिसमें संलग्न बाथरूम है।</p>
+        <p class="price">₹2000 / रात</p>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <img src="images/room3.jpg" alt="सुइट रूम" />
+      <div class="room-content">
+        <h3>सुइट रूम</h3>
+        <p>शानदार सुइट रूम, खूबसूरत Mountain View के साथ।</p>
+        <p class="price">₹3500 / रात</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
